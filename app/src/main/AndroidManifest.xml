@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cookandroid.finalproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProject">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FoodActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".ContainerActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".CosmeticsActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".BathActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".AppliancesActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".KitchenActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".ClothesActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".DailyActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".FurnitureActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".BookActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".EtcActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".FruitPeelActivity"
+            android:parentActivityName=".FoodActivity">
+        </activity>
+
+        <activity android:name=".StudyFirstActivity" />
+        <activity android:name=".StudySecondActivity" />
+        <activity android:name=".StudyThirdActivity" />
+        <activity android:name=".StudyFourthActivity" />
+        <activity android:name=".StudyFifthActivity" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 생활용품 카테고리 그리드뷰 아이템 레이아웃 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <ImageView
+        android:id="@+id/dailyImage"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/dailyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dailyName"
+        android:textSize="13sp" />
+
+</LinearLayout>
